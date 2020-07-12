@@ -1,0 +1,395 @@
+@charset "UTF-8";
+/* CSS Document */
+*{
+  box-sizing: border-box;
+}
+
+body {
+  font-family:Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+  padding: 10px;
+  background-image: url("img/background_webpage.jpg");
+}
+
+.main_header {
+ height: 100vh;
+ background-image: url("img/homepage_pic.png");
+ display: flex;
+ flex-direction: column;
+ align-items: left;
+ justify-content: center;
+ background-size: cover; 
+ margin-bottom: 20px;
+ 
+}
+
+/*@keyframes animation {
+  0%   {background-color: #ffffff;}
+  14.28% {background-color: #ffa62b;}
+  28.57%  {background-color: #489fb5;}
+  42.85%  {background-color: #bb4430;}
+  71.41%  {background-color: #489fb5;}
+  85.69% {background-color: #ffa62b;}
+  100%   {background-color: #ffffff;}
+}*/
+
+.main_header h1 {
+  font-size: 55px;
+  color: #2E2E2E;
+  margin-left: 10%;
+}
+
+.main_header h2 {
+  color: #2E2E2E;
+  margin-left: 10%;
+}
+
+.main_header p {
+  font-size: 18px;
+  color: #2E2E2E;
+  margin-left: 10%;
+}
+
+.about_header {
+ height: 100vh;
+ background-image: url("img/aboutpage_pic_2.png");
+ display: flex;
+ flex-direction: column;
+ align-items: left;
+ justify-content: center;
+ background-size: cover; 
+ margin-bottom: 20px;
+ 
+}
+
+.about_header h1 {
+  font-size: 55px;
+  color: #2E2E2E;
+  margin-left: 10%;
+}
+
+.about_header h2 {
+  color: #2E2E2E;
+  margin-left: 10%;
+}
+
+.about_header p {
+  font-size: 18px;
+  color: #2E2E2E;
+  margin-left: 10%;
+}
+
+.contact_header {
+ height: 100vh;
+ background-image: url("img/contactpage_pic.png");
+ display: flex;
+ flex-direction: column;
+ align-items: left;
+ justify-content: center;
+ background-size: cover; 
+ margin-bottom: 20px;
+ 
+}
+
+.contact_header h1 {
+  font-size: 55px;
+  color: #2E2E2E;
+  margin-left: 10%;
+}
+
+.contact_header h2 {
+  color: #2E2E2E;
+  margin-left: 10%;
+}
+
+.contact_header p {
+  font-size: 18px;
+  color: #2E2E2E;
+  margin-left: 10%;
+}
+
+
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  text-align: center;
+  background: white;
+}
+
+.header h1 {
+  font-size: 50px;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: scroll;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #2E2E2E;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  text-color: #000;
+  color: #474747;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 70%;
+  padding-left: 5%;
+}
+
+.leftcolumn_small {   
+  float: left;
+  width: 25%;
+  padding-left: 5%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: right;
+  width: 70%;
+  background-color: #f1f1f1;
+  padding-right: 20px;
+}
+
+.rightcolumn_small {
+  float: right;
+  width: 25%;
+  padding-right: 20px;
+}
+
+.center_large_column {   
+  float: center;
+  padding-left: 5%;
+  padding-right: 5%;
+  text-align: center;
+}
+
+.center_small_column {   
+  float: center;
+  width: 25%;
+  text-align: center;
+}
+
+.skills_grid {
+  display: grid;
+  grid-gap: 30px 30px;
+  grid-template-columns: auto auto auto auto;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.grid-item_card {
+  background-color: rgba(244,244,244,0.90);
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.exper_grid {
+  display: grid;
+  grid-gap: 30px 30px;
+  grid-template-columns: auto auto auto auto auto;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.grid-item_exper_card {
+  padding: 40px;
+  margin-top: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+.events_grid {
+  display: grid;
+  grid-gap: 5px 5px;
+  grid-template-columns: auto auto auto;
+  padding-left: 2px;
+  padding-right: 2px;
+}
+
+.grid-item_events_card {
+  padding: 20px;
+  margin-top: 10px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+/* Fake image */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+/* Add a card effect for articles*/
+.card {
+  background-color: rgba(234,234,234,0.60);
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+
+.section1 {
+  background-color: bisque;
+}
+p,
+h1 {
+  margin: 0px;
+  padding: 5px;
+}
+h1.page-header {
+  margin: 0;
+  padding: 0;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.footer_grid {
+  display: grid;
+  grid-gap: 30px 30px;
+  grid-template-columns: auto auto auto auto auto auto auto auto;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.grid-item_footer {
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.accordion{
+  background-color: rgba(244,244,244,0.90);
+  color: #444;
+  cursor: pointer;
+  padding: 2%;
+  width: 100%;
+  border: none;
+  border-radius: 10px;
+  text-align: center;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+}
+
+.accordion_blue{
+  background-color: rgba(244,244,244,0.90);
+  color: #444;
+  cursor: pointer;
+  padding: 2%;
+  width: 100%;
+  border: none;
+  border-radius: 10px;
+  text-align: center;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+}
+
+.accordion_orange{
+  background-color: rgba(244,244,244,0.90);
+  color: #444;
+  cursor: pointer;
+  padding: 2%;
+  width: 100%;
+  border: none;
+  border-radius: 10px;
+  text-align: center;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+}
+
+.accordion_green{
+  background-color: rgba(244,244,244,0.90);
+  color: #444;
+  cursor: pointer;
+  padding: 2%;
+  width: 100%;
+  border: none;
+  border-radius: 10px;
+  text-align: center;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+}
+
+.active_yell, #accordion:hover {
+  background-color: rgba(255,194,111,0.470);
+  border-radius: 18px;
+}
+
+.active_blue, #accordion_blue:hover {
+  background-color: rgba(71,179,211,.47);
+  border-radius: 18px;
+}
+
+.active_orange, #accordion_orange:hover {
+  background-color: rgba(220,130,69,0.5);
+  border-radius: 18px;
+}
+
+
+.active_green, #accordion_green:hover {
+  background-color: rgba(80,137,46,0.47);
+  border-radius: 18px;
+}
+
+.panel {
+  padding: 0 18px;
+  width: 100%;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: white;
+  border-radius: 5px;
+}
+
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+
+
+	
+}
