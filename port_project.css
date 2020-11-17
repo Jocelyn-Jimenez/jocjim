@@ -109,14 +109,12 @@ body {
 }
 
 .proj_header {
- height: 100vh;
  background-image: url("css/img/contactpage_pic.png");
  display: flex;
  flex-direction: column;
  align-items: left;
  justify-content: center;
- background-size: cover; 
- margin-bottom: 20px;
+ background-size: cover;
  
 }
 

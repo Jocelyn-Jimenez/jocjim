@@ -116,7 +116,7 @@ body {
 /* Create three equal columns that floats next to each other */
 .column {
   float: left;
-  width: 16%;
+  width: 20%;
   display: none; /* Hide all elements by default */
 }
 
@@ -132,7 +132,7 @@ body {
   padding: 20px;
   margin-top: 20px;
   border-radius: 10px;
-  background-color: rgba(244,244,244,0.95);
+  background-color: rgba(244,244,244,0.55);
   align-items: center;
 }
 
