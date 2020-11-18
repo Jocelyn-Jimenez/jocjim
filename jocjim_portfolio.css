@@ -4,10 +4,20 @@
   box-sizing: border-box;
 }
 
+::-moz-selection { /* Code for Firefox */
+  color: #2E2E2E;
+  background: rgba(255,194,111,0.470);
+}
+
+::selection {
+  color: #2E2E2E;
+  background: rgba(255,194,111,0.470);
+}
+
 body {
   font-family:Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
   padding: 10px;
-  background-image: url("img/background_webpage.jpg");
+  background-image: url("img/background_webpage2.jpg");
 }
 
 .topnav {

@@ -23,6 +23,7 @@
 	
 <div class="proj_header">
   <section>
+	  <button onclick="goBack()" style="margin-left: 5%; border: none" class="active_back"><img src="img/icons/back_icon.png" width="40px"></button>
 	<h1>Personal Doodles</h1><br>
 	<p> <strong>Description: </strong>Art is a huge part of my life, to this day I use it as an outlet for expression and destress. Below are some examples of pieces of work I have made. Look at my instagram page for more!</p><br>
 	  <p><a href="https://instagram.com/j.jimenezdesigns?igshid=1fd3ksaununiz" target="_blank"><img src="img/icons/insta_icon.png" width="30px" alt="down"></a></p><br>
@@ -84,6 +85,10 @@ for (i = 0; i < acc.length; i++) {
   });
 };
 
+
+function goBack() {
+  window.history.back();
+}
 
 </script>	
 	

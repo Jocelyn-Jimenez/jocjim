@@ -5,6 +5,7 @@
   box-sizing: border-box;
 }
 
+
 body {
   font-family:Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
   padding: 10px;
@@ -21,6 +22,16 @@ body {
  background-size: cover; 
  margin-bottom: 20px;
  
+}
+
+::-moz-selection { /* Code for Firefox */
+  color: #2E2E2E;
+  background: rgba(255,194,111,0.470);
+}
+
+::selection {
+  color: #2E2E2E;
+  background: rgba(255,194,111,0.470);
 }
 
 /*@keyframes animation {
@@ -357,6 +368,19 @@ h1.page-header {
   font-size: 15px;
   transition: 0.4s;
 }
+.accordion_back{
+  background-color: rgba(244,244,244,0.90);
+  color: #444;
+  cursor: pointer;
+  padding: 2%;
+  width: 100%;
+  border: none;
+  border-radius: 10px;
+  text-align: center;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+}
 
 .accordion_green{
   background-color: rgba(244,244,244,0.90);
@@ -387,6 +411,10 @@ h1.page-header {
   border-radius: 18px;
 }
 
+.active_back, #accordion_back:hover {
+  background-color: rgba(164,164,164,.30);
+  border-radius: 18px;
+}
 
 .active_green, #accordion_green:hover {
   background-color: rgba(80,137,46,0.47);

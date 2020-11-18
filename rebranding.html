@@ -23,6 +23,7 @@
 	
 <div class="proj_header">
   <section>
+	  <button onclick="goBack()" style="margin-left: 5%; border: none" class="active_back"><img src="img/icons/back_icon.png" width="40px"></button>
 	<h1>Re-Branding Project</h1><br>
 	 <table style="width: 75%; padding-left: 10%; margin-left: 10%; font-size: 18px" align-text="left">
   <tr>
@@ -80,6 +81,10 @@ for (i = 0; i < acc.length; i++) {
     } 
   });
 };
+
+function goBack() {
+  window.history.back();
+}
 
 
 </script>	
